@@ -1,0 +1,125 @@
+.slider-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px 50px;
+}
+
+
+.slider-one {
+  width: 75%;
+  height: 410px;
+  position: relative;
+} 
+
+.left-arrow {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: all 0.3s ease ;
+  cursor: pointer;
+}
+
+.left-arrow::after {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  transform: rotate(-45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.left-arrow::before {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 13px;
+  transform: rotate(45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.right-arrow {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.right-arrow::after {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  transform: rotate(45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.right-arrow::before {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 18px;
+  transform: rotate(-45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.slider-one:hover .left-arrow{
+  display: block;
+}
+.slider-one:hover .right-arrow { 
+  display: block;
+}
+.circle-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.circle {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #999;
+  cursor: pointer;
+}
+
+.circle.active {
+  background-color: #DA002B;
+}
+

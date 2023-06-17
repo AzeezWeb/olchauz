@@ -1,0 +1,42 @@
+.catalog-link {
+  color: #000;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.catalog-link__box {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.catalog-link__bg {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+} 
+.catalog-link__img {
+  position: absolute;
+  z-index: 100;
+  left: 27px;
+  top: 15px;
+  transition: all 0.3s ease;
+} 
+
+.catalog-link__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.catalog-link:hover .catalog-link__title {
+  color: #DA002B;
+}
+
+.catalog-link:hover .catalog-link__img {
+  transform: scale(1.2);
+}

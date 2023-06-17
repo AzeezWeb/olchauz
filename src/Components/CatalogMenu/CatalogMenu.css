@@ -1,0 +1,19 @@
+.catalog-menu__container {
+  width: 280px;
+  height: auto;
+}
+
+.catalog-items  .catalog-item__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.catalog-items__list {
+  padding: 5px 0;
+}
+
+.catalog-item {
+  color: #999;
+  font-size: 16px;
+  margin: 5px 0;
+}

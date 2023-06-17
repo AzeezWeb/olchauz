@@ -1,0 +1,25 @@
+.corusel-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.corusel-items {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+
+}
+
+.corusel-item {
+  display: flex;
+  gap: 15px;
+  margin-left: 5px;
+  transition: all 0.3s ease;
+}

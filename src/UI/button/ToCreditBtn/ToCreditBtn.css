@@ -1,0 +1,16 @@
+.to-credit__container {
+  width: 182px;
+  height: 36px;
+  color: #da002b;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 8px;
+  border: 2px solid #da002b;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.to-credit__container:hover {
+  background-color: #da002c17;
+}

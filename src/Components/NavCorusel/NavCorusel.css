@@ -1,0 +1,124 @@
+.nav-corusel__container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.nav-list {
+  display: flex; 
+  align-items: start;
+  flex-direction: row;
+  gap: 15px;
+  padding-top: 15px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav-item__img {
+  transition: all 0.3s ease;
+}
+.nav-item__img:hover {
+  transform: scale(1.2);
+}
+
+.nav-item__name {
+
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav-left__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: all 0.3s ease ;
+  cursor: pointer;
+  border: none;
+  z-index: 100;
+
+}
+
+.nav-left__arrow::after {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  transform: rotate(-45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nav-left__arrow::before {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 13px;
+  transform: rotate(45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nav-right__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  z-index: 100;
+}
+
+.nav-right__arrow::after {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  transform: rotate(45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nav-right__arrow::before {
+  content: '';
+  width: 15px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 18px;
+  transform: rotate(-45deg);
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
