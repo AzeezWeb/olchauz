@@ -20,7 +20,7 @@ function HeroSlider() {
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
   };
-
+  
   const goToPrevios = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? sliderItems.length - 1 : currentIndex - 1;

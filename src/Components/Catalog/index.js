@@ -11,10 +11,12 @@ import ProductCard from "../ProductCard";
 function Catalog() {
   const params = useParams()
   const product = data.products.filter((p) => p.type === params.product);
-  console.log(product);
+
+
+
   return ( 
     <>
-      <div className="catalog-container">
+      <div className="catalog-container" >
         <h1 className="catalog-title"> {product[0].title}</h1>
         <div className="row">
           <CatalogMenu product={product[0]}/>
@@ -25,7 +27,7 @@ function Catalog() {
               {product[0].items.map((item) => {
                 if(item.items.length !== 0 ) {
                   return (
-                    <div className="product-cards"> 
+                    <div className="product-cards" key={item}> 
                       <div className="product-sub__title">
                         <h1>{ item.type}</h1>
                         <div>
@@ -33,16 +35,12 @@ function Catalog() {
                           <IoIosArrowForward/>
                         </div>
                       </div>
-                        <Corusel>
-                        {item.items.map((product) => (
-                          <ProductCard product={product}/>
-                        ))}
+                        <Corusel key={item}>
+                        <ProductCard items={item.items} key={item}/>
                          </Corusel>
                   </div>
                   )
                 } else { return null} 
-
-                
               })}
               
           </div>

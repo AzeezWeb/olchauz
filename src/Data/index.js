@@ -81,79 +81,109 @@ let data = {
           type: 'Telavizorlar',
           items: [
               {
+                id: 1,
                 img: [
                   'https://olcha.uz/image/700x700/products/YnvVsBWL2uIcDRvD08wBX4AkE4KgLMALJ9pruJhL8JVMuPFyDkozXBgYc59G.jpg',
                   'https://olcha.uz/image/700x700/products/tWG5oCfrA7xMoeA9mLNT070FC5Btxb5qrOPIATYLGIMK1tk4q5v56c76vVpm.jpg',
                   'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg',
                   'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
                 ],
-                name: 'Televizor LG 43UQ81009 43',
-                price: 5492000,
-                color: 'Qora',
-                manufacturer: 'Xitoy',
-                sistem: 'Android TV',
-                screenFormat: '16:9',
-                typeOf: 'Smart TV' 
+                name: 'Televizor LG 43UQ8100 43',
+                Narxi: 5492000,
+                description: [
+                  ['Rangi', 'Qora',],
+                  ['Ishlabchiqaruvchisi', 'Xitoy'],
+                  ['Operatsiontizimi', 'Android TV'],
+                  ['Ekranformati', '16:9'],
+                  ['Turi', 'Smart TV'],  
+                  ['SmartTV', 'Bor, Android']
+                ],
+                quantity: 1,
+                Tavsifi: 'LG UHD televizorlari sizga yangi tomosha tajribasini olib keladi. Haqiqiy 4K televizorlarida jonli ranglar va ajoyib tafsilotlardan rohatlaning. LG UHD televizori endi sizning interyeringizga mos keladigan ingichka dizayn va yupqa ramkalarga ega. LG UHD televizorining a5 Gen5 aqlli protsessori immersiv tajriba taqdim etadi. Katta UHD ekranlarda 4K piksellar sonidagi istalgan kontentni tomosha qiling va har daqiqada tasvirning ravshanligi va aniqligidan zavqlaning. Ovozli boshqaruvdan tortib kontentni shaxsiylashtirishgacha bo‘lgan ThinQ AI intellektual texnologiyasi LG UHD televizoringizning barcha funksiyalaridan samarali foydalanish imkonini beradi. Oddiy ovozli boshqaruv. Apple AirPlay va boshqa yechimlar bilan aqlli ovozli boshqaruv LG UHD televizoringizni boshqarishni oson va tezroq qiladi. Videolarni 4K piksellar sonida tomosha qiling va kino tajribasidan zavqlaning. HDR10 Pro yorqinlik darajasi har bir tasvirning rangi va ravshanligini yaxshilash uchun sozlangan. Tasvirning realizmidan hayratda qolasiz. Cloud Game, Game Dashboard & Optimizer va HGiG yordamida ajoyib oʻyin tajribasidan bahramand boʻling. LG UHD televizorlari bitta rangli bosma va qayta ishlanadigan quti yordamida qadoqlangan.'
               },
               {
+                id: 2,
                 img: [
                   'https://olcha.uz/image/68x68/products/CI54C90YQ3j3zbtMAcaMYAbamQrOfSyyKHzneczUCZcEmFTlnK91wk9Xvteu.jpg',
                   'https://olcha.uz/image/700x700/products/tWG5oCfrA7xMoeA9mLNT070FC5Btxb5qrOPIATYLGIMK1tk4q5v56c76vVpm.jpg',
                   'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg',
                   'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
                 ],
-                name: 'Televizor LG 43UQ81009 43',
-                price: 5492000,
-                color: 'Qora',
-                manufacturer: 'Xitoy',
-                sistem: 'Android TV',
-                screenFormat: '16:9',
-                typeOf: 'Smart TV' 
+                name: 'Televizor LG 43UQ81008 43',
+                Narxi: 5492000,
+                description: [
+                  ['Rangi', 'Qora',],
+                  ['Ishlabchiqaruvchisi', 'Xitoy'],
+                  ['Operatsiontizimi', 'Android TV'],
+                  ['Ekranformati', '16:9'],
+                  ['Turi', 'Smart TV'],  
+                  ['SmartTV', 'Bor, Android']
+                ],
+                quantity: 1,
+                Tavsifi: 'LG UHD televizorlari sizga yangi tomosha tajribasini olib keladi. Haqiqiy 4K televizorlarida jonli ranglar va ajoyib tafsilotlardan rohatlaning. LG UHD televizori endi sizning interyeringizga mos keladigan ingichka dizayn va yupqa ramkalarga ega. LG UHD televizorining a5 Gen5 aqlli protsessori immersiv tajriba taqdim etadi. Katta UHD ekranlarda 4K piksellar sonidagi istalgan kontentni tomosha qiling va har daqiqada tasvirning ravshanligi va aniqligidan zavqlaning. Ovozli boshqaruvdan tortib kontentni shaxsiylashtirishgacha bo‘lgan ThinQ AI intellektual texnologiyasi LG UHD televizoringizning barcha funksiyalaridan samarali foydalanish imkonini beradi. Oddiy ovozli boshqaruv. Apple AirPlay va boshqa yechimlar bilan aqlli ovozli boshqaruv LG UHD televizoringizni boshqarishni oson va tezroq qiladi. Videolarni 4K piksellar sonida tomosha qiling va kino tajribasidan zavqlaning. HDR10 Pro yorqinlik darajasi har bir tasvirning rangi va ravshanligini yaxshilash uchun sozlangan. Tasvirning realizmidan hayratda qolasiz. Cloud Game, Game Dashboard & Optimizer va HGiG yordamida ajoyib oʻyin tajribasidan bahramand boʻling. LG UHD televizorlari bitta rangli bosma va qayta ishlanadigan quti yordamida qadoqlangan.'
               },
               {
+                id: 3,
                 img: [
+                  'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg',
                   'https://olcha.uz/image/68x68/products/CI54C90YQ3j3zbtMAcaMYAbamQrOfSyyKHzneczUCZcEmFTlnK91wk9Xvteu.jpg',
                   'https://olcha.uz/image/700x700/products/tWG5oCfrA7xMoeA9mLNT070FC5Btxb5qrOPIATYLGIMK1tk4q5v56c76vVpm.jpg',
+                  'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg'
+                ],
+                name: 'Televizor LG 43UQ81007 43',
+                Narxi: 5492000,
+                description: [
+                  ['Rangi', 'Qora',],
+                  ['Ishlabchiqaruvchisi', 'Xitoy'],
+                  ['Operatsiontizimi', 'Android TV'],
+                  ['Ekranformati', '16:9'],
+                  ['Turi', 'Smart TV'],  
+                  ['SmartTV', 'Bor, Android']
+                ],
+                quantity: 1,
+                Tavsifi: 'LG UHD televizorlari sizga yangi tomosha tajribasini olib keladi. Haqiqiy 4K televizorlarida jonli ranglar va ajoyib tafsilotlardan rohatlaning. LG UHD televizori endi sizning interyeringizga mos keladigan ingichka dizayn va yupqa ramkalarga ega. LG UHD televizorining a5 Gen5 aqlli protsessori immersiv tajriba taqdim etadi. Katta UHD ekranlarda 4K piksellar sonidagi istalgan kontentni tomosha qiling va har daqiqada tasvirning ravshanligi va aniqligidan zavqlaning. Ovozli boshqaruvdan tortib kontentni shaxsiylashtirishgacha bo‘lgan ThinQ AI intellektual texnologiyasi LG UHD televizoringizning barcha funksiyalaridan samarali foydalanish imkonini beradi. Oddiy ovozli boshqaruv. Apple AirPlay va boshqa yechimlar bilan aqlli ovozli boshqaruv LG UHD televizoringizni boshqarishni oson va tezroq qiladi. Videolarni 4K piksellar sonida tomosha qiling va kino tajribasidan zavqlaning. HDR10 Pro yorqinlik darajasi har bir tasvirning rangi va ravshanligini yaxshilash uchun sozlangan. Tasvirning realizmidan hayratda qolasiz. Cloud Game, Game Dashboard & Optimizer va HGiG yordamida ajoyib oʻyin tajribasidan bahramand boʻling. LG UHD televizorlari bitta rangli bosma va qayta ishlanadigan quti yordamida qadoqlangan.'
+              },
+              {
+                id: 4,
+                img: [
+                  'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg',
+                  'https://olcha.uz/image/68x68/products/CI54C90YQ3j3zbtMAcaMYAbamQrOfSyyKHzneczUCZcEmFTlnK91wk9Xvteu.jpg',
+                  'https://olcha.uz/image/700x700/products/tWG5oCfrA7xMoeA9mLNT070FC5Btxb5qrOPIATYLGIMK1tk4q5v56c76vVpm.jpg',
+                  'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
+                ],
+                name: 'Televizor LG 43UQ81006 43',
+                Narxi: 5492000,
+                description: [
+                  ['Rangi', 'Qora',],
+                  ['Ishlabchiqaruvchisi', 'Xitoy'],
+                  ['Operatsiontizimi', 'Android TV'],
+                  ['Ekranformati', '16:9'],
+                  ['Turi', 'Smart TV'],  
+                  ['SmartTV', 'Bor, Android']
+                ],
+                quantity: 1,
+                Tavsifi: 'LG UHD televizorlari sizga yangi tomosha tajribasini olib keladi. Haqiqiy 4K televizorlarida jonli ranglar va ajoyib tafsilotlardan rohatlaning. LG UHD televizori endi sizning interyeringizga mos keladigan ingichka dizayn va yupqa ramkalarga ega. LG UHD televizorining a5 Gen5 aqlli protsessori immersiv tajriba taqdim etadi. Katta UHD ekranlarda 4K piksellar sonidagi istalgan kontentni tomosha qiling va har daqiqada tasvirning ravshanligi va aniqligidan zavqlaning. Ovozli boshqaruvdan tortib kontentni shaxsiylashtirishgacha bo‘lgan ThinQ AI intellektual texnologiyasi LG UHD televizoringizning barcha funksiyalaridan samarali foydalanish imkonini beradi. Oddiy ovozli boshqaruv. Apple AirPlay va boshqa yechimlar bilan aqlli ovozli boshqaruv LG UHD televizoringizni boshqarishni oson va tezroq qiladi. Videolarni 4K piksellar sonida tomosha qiling va kino tajribasidan zavqlaning. HDR10 Pro yorqinlik darajasi har bir tasvirning rangi va ravshanligini yaxshilash uchun sozlangan. Tasvirning realizmidan hayratda qolasiz. Cloud Game, Game Dashboard & Optimizer va HGiG yordamida ajoyib oʻyin tajribasidan bahramand boʻling. LG UHD televizorlari bitta rangli bosma va qayta ishlanadigan quti yordamida qadoqlangan.'
+              },
+              {
+                id: 5,
+                img: [
+                  'https://olcha.uz/image/700x700/products/tWG5oCfrA7xMoeA9mLNT070FC5Btxb5qrOPIATYLGIMK1tk4q5v56c76vVpm.jpg',
+                  'https://olcha.uz/image/68x68/products/CI54C90YQ3j3zbtMAcaMYAbamQrOfSyyKHzneczUCZcEmFTlnK91wk9Xvteu.jpg',
                   'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg',
                   'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
                 ],
-                name: 'Televizor LG 43UQ81009 43',
-                price: 5492000,
-                color: 'Qora',
-                manufacturer: 'Xitoy',
-                sistem: 'Android TV',
-                screenFormat: '16:9',
-                typeOf: 'Smart TV' 
-              },
-              {
-                img: [
-                  'https://olcha.uz/image/68x68/products/CI54C90YQ3j3zbtMAcaMYAbamQrOfSyyKHzneczUCZcEmFTlnK91wk9Xvteu.jpg',
-                  'https://olcha.uz/image/700x700/products/tWG5oCfrA7xMoeA9mLNT070FC5Btxb5qrOPIATYLGIMK1tk4q5v56c76vVpm.jpg',
-                  'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg',
-                  'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
+                name: 'Televizor LG 43UQ81005 43',
+                Narxi: 5492000,
+                description: [
+                  ['Rangi', 'Qora',],
+                  ['Ishlabchiqaruvchisi', 'Xitoy'],
+                  ['Operatsiontizimi', 'Android TV'],
+                  ['Ekranformati', '16:9'],
+                  ['Turi', 'Smart TV'],  
+                  ['SmartTV', 'Bor, Android']
                 ],
-                name: 'Televizor LG 43UQ81009 43',
-                price: 5492000,
-                color: 'Qora',
-                manufacturer: 'Xitoy',
-                sistem: 'Android TV',
-                screenFormat: '16:9',
-                typeOf: 'Smart TV' 
-              },
-              {
-                img: [
-                  'https://olcha.uz/image/68x68/products/CI54C90YQ3j3zbtMAcaMYAbamQrOfSyyKHzneczUCZcEmFTlnK91wk9Xvteu.jpg',
-                  'https://olcha.uz/image/700x700/products/tWG5oCfrA7xMoeA9mLNT070FC5Btxb5qrOPIATYLGIMK1tk4q5v56c76vVpm.jpg',
-                  'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg',
-                  'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
-                ],
-                name: 'Televizor LG 43UQ81009 43',
-                price: 5492000,
-                color: 'Qora',
-                manufacturer: 'Xitoy',
-                sistem: 'Android TV',
-                screenFormat: '16:9',
-                typeOf: 'Smart TV' 
+                quantity: 1,
+                Tavsifi: 'LG UHD televizorlari sizga yangi tomosha tajribasini olib keladi. Haqiqiy 4K televizorlarida jonli ranglar va ajoyib tafsilotlardan rohatlaning. LG UHD televizori endi sizning interyeringizga mos keladigan ingichka dizayn va yupqa ramkalarga ega. LG UHD televizorining a5 Gen5 aqlli protsessori immersiv tajriba taqdim etadi. Katta UHD ekranlarda 4K piksellar sonidagi istalgan kontentni tomosha qiling va har daqiqada tasvirning ravshanligi va aniqligidan zavqlaning. Ovozli boshqaruvdan tortib kontentni shaxsiylashtirishgacha bo‘lgan ThinQ AI intellektual texnologiyasi LG UHD televizoringizning barcha funksiyalaridan samarali foydalanish imkonini beradi. Oddiy ovozli boshqaruv. Apple AirPlay va boshqa yechimlar bilan aqlli ovozli boshqaruv LG UHD televizoringizni boshqarishni oson va tezroq qiladi. Videolarni 4K piksellar sonida tomosha qiling va kino tajribasidan zavqlaning. HDR10 Pro yorqinlik darajasi har bir tasvirning rangi va ravshanligini yaxshilash uchun sozlangan. Tasvirning realizmidan hayratda qolasiz. Cloud Game, Game Dashboard & Optimizer va HGiG yordamida ajoyib oʻyin tajribasidan bahramand boʻling. LG UHD televizorlari bitta rangli bosma va qayta ishlanadigan quti yordamida qadoqlangan.'
               },
           ]
         },

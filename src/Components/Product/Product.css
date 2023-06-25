@@ -1,0 +1,375 @@
+.product {
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+.product-name {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 49px;
+  color: #111;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.product-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.product-star {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product-star p {
+  color: #111;
+  font-size: 16px;
+  margin-left: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.product-star svg {
+  color: #da002b;
+  font-size: 25px;
+
+}
+
+.product-control__btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-control__btns div {
+  color: #da002b;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.product-control__btns div svg {
+  font-size: 20px;
+  color: #da002b;
+}
+
+.product-control__btns div p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.product-control__btns div:hover {
+  color: #111;
+}
+
+.product-control__btns div:hover svg {
+  color: #da002b;
+}
+
+.product-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 40px;
+  gap: 30px;
+
+}
+
+.product-details__box {
+  width: 66%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.product-img {
+  display: flex;
+  width: 100%;
+  max-width: 970px;
+  align-items: flex-start;
+  gap: 30px;
+
+}
+.product-img__box {
+  max-width: 466px;
+  width: 466px;
+}
+
+
+.product-des {
+ width: 502px;
+  padding-left: 20px;
+}
+
+.product-details__price {
+  display: block;
+  width: 100%;
+  border: 1px solid #c8cbcd5a;
+  border-radius: 12px;
+  margin-top: 35px;
+  padding: 15px;
+}
+
+.product-details__price  h2 { 
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+
+
+.product-details__price div {
+  display: flex;
+  align-items: flex-start;
+  gap:  15px;
+}
+.product-details__price div div {
+  display: block;
+  width: 33%;
+}
+.product-details__widget {
+  max-width: 400px;
+  width: 33%;
+
+}
+
+.product-details__widget-info {
+  padding: 17px;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+
+}
+.product-details__widget-price {
+  color: #111;
+  font-size: 22px;
+  font-weight: 700;
+  font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+.product-details__dilevry {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #999;
+  font-size: 14px;
+  position: relative;
+}
+
+
+.product-details__dilevry svg {
+  font-size: 25px;
+  color: #999;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.product-details__dilevry-info {
+  display: none;
+  width: 306px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 16px;
+  position: absolute;
+  top: 30px;
+  right: 13px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 24px #0000001a;
+}
+
+.product-details__dilevry:hover .product-details__dilevry-info  {
+  display: flex;
+}
+
+.product-details__dilevry div:hover svg {
+  color: #da002b;
+}
+
+
+.product-details__dilevry-time {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.product-details__dilevry-time div svg {
+  font-size: 25px;
+  font-weight: 600;
+  transform: rotateY(180deg);
+}
+
+.product-details__dilevry-time div b {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+.product-details__dilevry-time div p {
+  padding-top: 5px;
+  font-weight: 500;
+  padding-bottom: 60px;
+}
+
+.product-details__cart-btn {
+  width: 100%;
+  background-color: #12bf6c;
+  border: 1px solid #12bf6c;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.product-details__cart-btn.min {
+
+}
+
+.product-details__cart-btn:hover {
+  color: #12bf6c;
+  background-color: #12bf6b17;
+}
+.product-details__cart-btn svg {
+  font-size: 25px;
+}
+
+.btn-fw {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  font-size: 17px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn-fw:hover {
+  background-color: #c8cbcd5a;
+}
+
+
+.insales-store {
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease; 
+}
+
+.insales-store:hover {
+  color: #da002b;
+}
+
+
+
+.product-details__widget-credit {
+  padding: 17px;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  margin-top: 30px;
+
+}
+
+.product-details__widget-credit p {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.product-details__widget-credit-price {
+  color: #da002b ;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  font-family:   sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.product-details__widget-credit .logo {
+  width: 125px;
+  padding: 10px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #cdc8c8;
+}
+
+.btn-red__fw {
+  width: 100%;
+  background-color: #da002b;
+  color: #fff;
+  transition: all 0.3s ease;
+  border: 1px solid #da002b;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 12px;
+}
+
+.btn-red__fw:hover {
+  color: #da002b;
+  background-color: #da002c23;
+}
+
+hr {
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+}
+
+
+
+.product-subtitle {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.product-subtitle__title {
+  color: #111;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.product-subtitle p {
+  width: 66%;
+  color: #999;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.product-subtitle h4 {
+  font-size: 20px;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.product-subtitle div {
+  width: 50%;
+}

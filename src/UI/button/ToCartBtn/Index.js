@@ -1,11 +1,18 @@
-import React from "react";
 import './ToCartBtn.css';
 import { IoCartOutline } from 'react-icons/io5'
+import { useDispatch } from "react-redux";
+import { addToCartSliceAction } from "../../../store";
+
+function ToCartBtn( { product }) {
 
 
-function ToCartBtn() {
+  const dispatch = useDispatch();
+
+  const addToCartHandler = (product) => { 
+    dispatch( addToCartSliceAction.add(product));
+  }
   return ( 
-    <button className="to-cart__container">
+    <button onClick={() => addToCartHandler(product)} className="to-cart__container">
       <IoCartOutline/>
     </button>
    );

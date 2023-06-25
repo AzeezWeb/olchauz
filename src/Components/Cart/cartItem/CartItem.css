@@ -19,7 +19,13 @@
   height: auto;
 }
 
+.cart-item__des {
+  width: 100%;
+  margin-left: 25px;
+}
+
 .cart-item__des div:first-child {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -61,3 +67,6 @@
   color: #da002b;
 }
 
+.cart-item__des .to-cart__container.to-cart__btn2 {
+  max-width: 200px;
+}

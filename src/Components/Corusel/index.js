@@ -8,13 +8,15 @@ import RightArrow from "../../UI/button/ArrowBtns/RightArrow";
 function Corusel( { children }) {
   
   const [translate, setTranslate] = useState(0)
-  const coruselStyle = {
-    transform: `translate(-${translate}px)`
-  }
+  const coruselStyle = { transform: `translate(-${translate}px)` }
+
+  
+
+  
 
 
   const goToNext = () => {
-    if(translate < 1350) {
+    if(translate < 700) {
       setTranslate(translate + 200)
     }
   }

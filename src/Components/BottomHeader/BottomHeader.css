@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0 auto;
   display: block;
-  padding: 15px 50px;
+  padding: 25px 50px;
   position: relative;
   background-color: #fff;
   z-index: 1000;
@@ -10,8 +10,10 @@
 
 
 .header-bottom__container.fixed {
+  padding: 15px 50px;
   position: fixed; 
   top: 0;
+  box-shadow: 0px 6px 18px 0px rgba(34, 60, 80, 0.2);
   
 }
 .header-bottom__container ul {
@@ -19,11 +21,14 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
+  gap: 15px;
 }
 
 .header-bottom__container ul li {
   cursor: pointer;
-}
+} 
+
+
 
 
 .katalog {
@@ -34,8 +39,8 @@
   border-radius: 12px;
   height: 45px;
   font-size: 20px;
-  font-weight: 600;
-  border: 2px solid #000;
+  font-weight: 500;
+  border: 2px solid #111;
   padding-right: 10px;
 }
  .katalog * {
@@ -144,10 +149,23 @@
 .comparison, .like, .order, .user  {
   text-align: center;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .order a {
-  color: #000;
+  color: #111;
+  position: relative;
+}
+
+.order a span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  color: #fff;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  background-color: #DA002B;
 }
 
 

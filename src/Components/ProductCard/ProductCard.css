@@ -41,6 +41,7 @@
 }
 
 .product-card__name {
+  color: #111;
   font-family: sans-serif;
   margin-bottom: 35px;
   transition: color 0.2s ease;
@@ -73,6 +74,15 @@
 }
 
 .product-card__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  /* padding-bottom: 30px; */
+}
+
+.product-card__btns div {
   display: flex;
   align-items: center;
   justify-content: center;

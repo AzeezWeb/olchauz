@@ -1,0 +1,92 @@
+.to-cart__container {
+  width: 36px;
+  height: 36px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 3px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.to-cart__container svg {
+  font-size: 20px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+
+.to-cart__container.to-cart__btn2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px 5px;
+  margin: 0 12px;
+  cursor: default;
+}
+
+.to-cart__container.to-cart__btn2  p {
+  color: #111;
+  font-size: 20px;
+  width: 70%;
+  cursor: text;
+}
+
+.to-cart__container.to-cart__btn2 button:first-child {
+  width: 30%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.to-cart__container.to-cart__btn2 button:first-child::after {
+  content: '';
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background-color: #999;
+  cursor: pointer;
+  border-radius: 8px;
+
+ 
+}
+.to-cart__container.to-cart__btn2 button:last-child {
+  width: 30%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.to-cart__container.to-cart__btn2 button:last-child::after {
+  content: '';
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 8px;
+
+}
+.to-cart__container.to-cart__btn2 button:last-child::before {
+  content: '';
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 8px;
+  transform: rotate(90deg);
+
+}

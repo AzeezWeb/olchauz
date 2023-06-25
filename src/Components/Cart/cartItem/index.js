@@ -1,14 +1,11 @@
 import React from "react";
 import './CartItem.css'
-import ToCartBtn from "../../../UI/button/ToCartBtn/Index";
-import data from "../../../Data";
+import ToCartBtn2 from "../../../UI/button/ToCartBtn2/Index";
 
-function CartItem() {
+function CartItem( { cartItems }) {
 
-  const product = data.products[0].items[0].items[0]
-  console.log(product);
-  return ( 
-    <div className="cart-item">
+  return cartItems.map((product, index) => (
+    <div className="cart-item" key={index}>
       <div className="cart-item__img">
         <img src={product.img[0]} alt={product.typeOf}/>
       </div>
@@ -17,7 +14,7 @@ function CartItem() {
           <p className="cart-item__name" >
             {product.name}
           </p>
-          <ToCartBtn/>
+          <ToCartBtn2 quantity={product.quantity} index={index}/>
           <p className="cart-item__price">
             {product.price} so'm
           </p>
@@ -28,7 +25,7 @@ function CartItem() {
         </div>
       </div>
     </div>
-   );
+  ))
 }
 
 export default CartItem;

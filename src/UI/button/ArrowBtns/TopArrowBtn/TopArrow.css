@@ -1,0 +1,31 @@
+.top-arrow {
+  display: none;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #da002b;
+  border: 2px solid #da002b;
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  left: 20px;
+  transition: all 0.3s ease;
+}
+
+.top-arrow:hover { 
+  color: #da002b;
+  background-color: #fff;
+  border: 2px solid #da002b;
+ }
+
+
+ .top-arrow svg {
+  padding-top: 3px;
+  font-size: 30px;
+ }
+
+ .top-arrow.active {
+  display: block;
+ }
