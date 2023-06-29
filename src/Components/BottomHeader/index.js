@@ -4,7 +4,8 @@ import { AiOutlineSearch, AiOutlineHeart } from 'react-icons/ai'
 import { BiBarChart, BiUser } from 'react-icons/bi'
 import { IoCartOutline} from 'react-icons/io5'
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { logInSliceAction } from "../../store";
 
 
 
@@ -13,8 +14,14 @@ function BottomHeader() {
   const [toggle, setToggle] = useState(false)
   const [fixed, setFixed] = useState(false)
 
-  const cartItems = useSelector(state => state.cartItems)
-
+  const cartItems = useSelector(state => state.addToCart.cartItems)
+  const favoritItems = useSelector(state => state.favorite.favoritItems)
+  const dispatch = useDispatch()
+  
+   const  logIn = () => {
+    dispatch( logInSliceAction.active())
+  }
+  
   function sticky() {
     let windowHeight = window.scrollY;
     if(windowHeight > 150) {
@@ -23,6 +30,7 @@ function BottomHeader() {
       setFixed(false)
     }
   }
+
 
 
   useEffect(() =>{
@@ -56,8 +64,14 @@ function BottomHeader() {
             <p> Taqqoslash</p>
           </li>
           <li className="like">
-            <AiOutlineHeart/>
-            <p> Sevimlilar</p>
+            <Link to="/favorites">
+              {favoritItems.length !== 0 
+                ? <span>{favoritItems.length}</span>
+                : null
+              }
+              <AiOutlineHeart/>
+              <p> Sevimlilar</p>
+            </Link>
           </li>
           <li className="order">
            <Link to='/cart' >
@@ -66,7 +80,7 @@ function BottomHeader() {
             <p> Savatcha </p>
            </Link>
           </li>
-          <li className="user">
+          <li className="user" onClick={logIn}>
             <BiUser/>
             <p> Kirish </p>
           </li>

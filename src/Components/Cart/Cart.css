@@ -220,6 +220,7 @@
   border: 2px solid #da002b;
   background-color: #da002b;
   transition: all 0.3s ease;
+  margin-bottom: 300px;
 }
 
 .cart-empty a button:hover {

@@ -1,0 +1,87 @@
+.product-detalies__accordion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-detalies__accordion-btn {
+  background-color: #fff;
+  color: #999;
+  font-size: 34px;
+  border: none;
+  cursor: pointer;
+  line-height: 25px;
+  transition: all 0.3s ease;
+}
+
+.product-detalies__accordion-btn.active {
+  color: #111;
+}
+
+.product-detalies__accordion-btn:hover {
+  color: #111;
+}
+
+.product-detalies__accordion-btn span {
+  width: 25px;
+  display: inline-block;
+  margin-left: 15px;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #da002b;
+  color: #fff;
+}
+
+
+.product-detalies__reiting-widget {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 35px;
+
+}
+
+
+.product-detalies__reiting-widget div:first-child h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product-detalies__reiting-widget div:first-child p {
+  font-size: 18px;
+  color: #999;
+}
+.product-detalies__reiting-widget-btn {
+  width: 400px;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.product-detalies__reiting-widget-btn div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-detalies__reiting-widget-btn div h2 {
+  font-size: 44px;
+  font-weight: 500;
+
+}
+
+.product-detalies__reiting-widget-btn button {
+  width: 100%;
+  background-color: #da002b;
+  border: 1px solid #da002b;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}

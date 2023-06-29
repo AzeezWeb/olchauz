@@ -243,9 +243,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
-.product-details__cart-btn.min {
 
-}
 
 .product-details__cart-btn:hover {
   color: #12bf6c;
@@ -373,3 +371,5 @@ hr {
 .product-subtitle div {
   width: 50%;
 }
+
+

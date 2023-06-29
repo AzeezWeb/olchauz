@@ -1,16 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Cart.css'
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { GoInfo } from 'react-icons/go'
 import { IoCartOutline } from 'react-icons/io5'
 import CartItem from "./cartItem";
 import GetUsetData from "../GetUserData";
 import { Link } from "react-router-dom";
+import { addToCartSliceAction } from "../../store";
+
 function Cart() {
 
-  const cartItems = useSelector(state => state.cartItems)
+  const cartItems = useSelector(state => state.addToCart.cartItems)
   const price = cartItems.map((price) => price.price * price.quantity)
   const allPrice = price.reduce((a, b) => a + b , 0)
+
+  const dispatch = useDispatch()
+  const [item, setItem ] = useState([])
+  const getLocalCartItems = () => {
+    const locCartItems = localStorage.getItem('cartItems')
+    return locCartItems ? setItem(JSON.parse(locCartItems)) : []
+  }
+
+  useEffect(() => {
+    getLocalCartItems()
+  }, [])
+
+
+  useEffect(() => {
+    item.map(item =>  dispatch(addToCartSliceAction.add(item)))
+  },[])
+
+console.log(item);
+
+  useEffect(() => {
+    localStorage.setItem('cartItems', JSON.stringify(cartItems))
+  }, [cartItems])
 
 
   if(cartItems.length !== 0) {

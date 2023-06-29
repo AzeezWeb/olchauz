@@ -36,8 +36,10 @@ function Catalog() {
                         </div>
                       </div>
                         <Corusel key={item}>
-                        <ProductCard items={item.items} key={item}/>
-                         </Corusel>
+                         {item.items.map(product => (
+                           <ProductCard items={product} key={product.id}/>
+                         ))}
+                        </Corusel>
                   </div>
                   )
                 } else { return null} 

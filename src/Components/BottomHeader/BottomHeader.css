@@ -163,8 +163,23 @@
   border-radius: 100%;
   color: #fff;
   position: absolute;
-  top: -20px;
+  top: -17px;
   right: 5px;
+  background-color: #DA002B;
+}
+
+.like {
+  position: relative;
+}
+.like a span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  color: #fff;
+  position: absolute;
+  top: -7px;
+  right: 6px;
   background-color: #DA002B;
 }
 
@@ -184,3 +199,10 @@
   /* .header-bottom__container ul li * { 
     pointer-events: none;
   } */
+
+  .user  svg {
+    pointer-events: none;
+  }
+  .user  p {
+    pointer-events: none;
+  }

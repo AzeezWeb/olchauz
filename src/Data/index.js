@@ -89,7 +89,7 @@ let data = {
                   'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
                 ],
                 name: 'Televizor LG 43UQ8100 43',
-                Narxi: 5492000,
+                price: 5492000,
                 description: [
                   ['Rangi', 'Qora',],
                   ['Ishlabchiqaruvchisi', 'Xitoy'],
@@ -110,7 +110,7 @@ let data = {
                   'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
                 ],
                 name: 'Televizor LG 43UQ81008 43',
-                Narxi: 5492000,
+                price: 5492000,
                 description: [
                   ['Rangi', 'Qora',],
                   ['Ishlabchiqaruvchisi', 'Xitoy'],
@@ -131,7 +131,7 @@ let data = {
                   'https://olcha.uz/image/700x700/products/kHIYWeZ25KKRPDj3EAsL5rOnuykQ5C5r8EwEvKIcU4Aaw9plpoMiHMLf2aqs.jpg'
                 ],
                 name: 'Televizor LG 43UQ81007 43',
-                Narxi: 5492000,
+                price: 5492000,
                 description: [
                   ['Rangi', 'Qora',],
                   ['Ishlabchiqaruvchisi', 'Xitoy'],
@@ -152,7 +152,7 @@ let data = {
                   'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
                 ],
                 name: 'Televizor LG 43UQ81006 43',
-                Narxi: 5492000,
+                price: 5492000,
                 description: [
                   ['Rangi', 'Qora',],
                   ['Ishlabchiqaruvchisi', 'Xitoy'],
@@ -173,7 +173,7 @@ let data = {
                   'https://olcha.uz/image/700x700/products/W6sAwMr2fioWtG9WvFurCPP2TbJa9vtWnlJWEK9WhlEOzcyuPziI6p1plera.jpg'
                 ],
                 name: 'Televizor LG 43UQ81005 43',
-                Narxi: 5492000,
+                price: 5492000,
                 description: [
                   ['Rangi', 'Qora',],
                   ['Ishlabchiqaruvchisi', 'Xitoy'],

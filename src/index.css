@@ -13,6 +13,9 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  color: #111;
+}
 
 .container {
   width: 100%;

@@ -37,8 +37,13 @@
   color: #111;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: sans-serif;
+  transition: all 0.2s ease;
+}
+
+.cart-item__name:hover {
+  color: #da002b;
 }
 
 .cart-item__price {
